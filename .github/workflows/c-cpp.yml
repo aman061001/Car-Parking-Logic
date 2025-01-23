@@ -27,11 +27,11 @@ jobs:
 
       # Step 4: Run the compiled program
       - name: Run C program
-        run: ./parking
+        run: ./parking_system
 
       # Step 5: Upload the build artifacts (optional)
       - name: Upload Build Artifacts
         uses: actions/upload-artifact@v3
         with:
           name: compiled-program
-          path: ./parking
+          path: ./parking_system
